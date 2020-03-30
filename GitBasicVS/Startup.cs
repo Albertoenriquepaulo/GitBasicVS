@@ -25,6 +25,7 @@ namespace GitBasicVS
         {
             services.AddControllersWithViews();
             int a = 10;
+            double c = a * 10;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
